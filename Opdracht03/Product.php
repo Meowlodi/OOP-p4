@@ -12,11 +12,11 @@ class Product
 }
 
 $game1 = new Product();
-$game1->name = "DOOM ETERNAL";
+$game1->name = "Valorant";
 $game1->price = 49;
 
 $game2 = new Product();
-$game2->name = "DOOM 64x";
+$game2->name = "Valorant";
 $game2->price = 10;
 
 

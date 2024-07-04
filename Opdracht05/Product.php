@@ -17,11 +17,11 @@ class Product
     }
 }
 
-$game1 = new Product( name: "doom eternal", price: 49);
+$game1 = new Product( name: "valorant", price: 49);
 
 
-$game2 = new Product( name: "doom 64x", price: 10);
-$game2->name = "doom 64x";
+$game2 = new Product( name: "league", price: 10);
+$game2->name = "league";
 $game2->price = 10;
 
 
