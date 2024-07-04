@@ -7,7 +7,7 @@ class Product
 
     public $currency;
 
-    public function __construct($price, $name = "Charlés", $currency = "&euro;")
+    public function __construct($price, $name = "Game", $currency = "&euro;")
     {
        $this->name = ucfirst($name);
        $this->price = $price;
@@ -23,8 +23,8 @@ class Product
 $game1 = new Product( price: 49, currency: "$"); 
 
 
-// $game2 = new Product( name: "doom 64x", price: 10);
-// $game2->name = "doom 64x";
+// $game2 = new Product( name: "league", price: 10);
+// $game2->name = "league";
 // $game2->price = 10;
 
 
