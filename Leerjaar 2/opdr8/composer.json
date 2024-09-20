@@ -1,0 +1,11 @@
+{
+    "name": "melod/opdr8",
+    "autoload": {
+        "psr-4": {
+            "Melod\\Opdr8\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
